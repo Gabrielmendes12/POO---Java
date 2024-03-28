@@ -8,7 +8,7 @@ public class NumerosPerfeitos {
 	        
 	        System.out.println("Os números perfeitos são: ");
 
-	        while (count < 6) {
+	        while (count < 4) {
 	            int soma = 0;
 	            for (int i = 1; i < num; i++) {
 	                if (num % i == 0) {
