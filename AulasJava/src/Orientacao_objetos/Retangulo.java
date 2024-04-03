@@ -13,5 +13,5 @@ public class Retangulo {
 	public void exibePerimetro() {
 		System.out.println("O perímetro do retângulo é: "+(2*base + 2*altura));
 	}
-
+	// métodos ou operações
 }
