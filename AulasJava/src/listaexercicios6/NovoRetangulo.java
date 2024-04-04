@@ -5,7 +5,7 @@ public class NovoRetangulo {
 	public int base;
 	public int altura;
 	
-	
+
 	public int exibeArea() {
 		return base*altura;
 	}
@@ -13,8 +13,7 @@ public class NovoRetangulo {
 	public int exibePerimetro() {
 		return 2*base + 2*altura;
 	}
-	
-	
+		
 }
 
 
