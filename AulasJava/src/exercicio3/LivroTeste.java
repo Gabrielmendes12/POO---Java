@@ -24,8 +24,12 @@ public class LivroTeste {
 		livro1.setEditora("Editora ABC");
 		livro1.setAno_Publicacao(1899);
 		
+		
+		
+		
+		
 		//System.out.println("oi" + livro1.getAno_Publicacao());
-		livro1.mostrarAtributos();
+		//livro1.mostrarAtributos();
 		
 		
 	}
