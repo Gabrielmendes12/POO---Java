@@ -5,9 +5,11 @@ public class PrincipalDados {
 	public static void main(String args[]) {
 		
 		//Criando um cliente
-		RegistroCliente cliente1 = new RegistroCliente("Edgar", "Rua A, 123", "Bairro A", "Cidade A", "Estado A", "12345-678", "123456789", 123456789, 10000);
+		RegistroCliente cliente1 = new RegistroCliente("Edgar", "Rua A, 123", "Bairro A", "Cidade A", "Estado A", "12345-678", "123456789", 
+				123456789, 10000, "Empresa A", "988050405");
 		// Criando um fornecedor
-        RegistroFornecedor fornecedor1 = new RegistroFornecedor("Rodrigo", "Rua B, 456", "Bairro B", "Cidade B", "Estado B", "98765-432", "987654321", 987654321, 50000);
+        RegistroFornecedor fornecedor1 = new RegistroFornecedor("Rodrigo", "Rua B, 456", "Bairro B", "Cidade B", "Estado B", "98765-432", "987654321", 
+        		987654321, 50000, "PIX", "123456789", "José Silva");
 
         // Exibindo informações do cliente
         System.out.println("***Informações do Cliente***");
@@ -19,7 +21,10 @@ public class PrincipalDados {
         System.out.println("CEP: " + cliente1.getCep());
         System.out.println("Telefone: " + cliente1.getTelefone());
         System.out.println("CPF: " + cliente1.getCpf());
-        System.out.println("Limite de Crédito: " + cliente1.getLimiteCredito());
+        System.out.println("Limite de Crédito: " + cliente1.getLocalTrabalho());
+        System.out.println("Telefone de Contato: " + cliente1.getTelefoneContato());
+        
+       
 
         // Exibindo informações do fornecedor
         System.out.println("\n***Informações do Fornecedor***");
@@ -32,6 +37,9 @@ public class PrincipalDados {
         System.out.println("Telefone: " + fornecedor1.getTelefone());
         System.out.println("CNPJ: " + fornecedor1.getCnpj());
         System.out.println("Limite de Venda: " + fornecedor1.getLimiteVenda());
+        System.out.println("Forma de Pagamento: " + fornecedor1.getFormaPagamento());
+        System.out.println("Inscrição Estadual: " + fornecedor1.getInscricaoEstadual());
+        System.out.println("Representante Comercial: " + fornecedor1.getRepresentanteComercial());
     }	
 }
 
