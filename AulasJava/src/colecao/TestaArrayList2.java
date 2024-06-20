@@ -13,7 +13,7 @@ public class TestaArrayList2 {
 		nome.add("Pedro");
 		nome.add("Jose");
 		
-		for (String i: nome)
+		for (String i: nome) // utilizando for each (iteração direta)
 			System.out.println(i);
 	}
 }
